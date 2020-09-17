@@ -1,0 +1,6 @@
+The game that the AI will play is an old board game called Conga (rules can be found here https://mancala.fandom.com/wiki/Conga).
+Run the agent smith file to get going.
+The program was implemented with a few fun additional features so that you could play in a player vs player mode as well as a player vs computer, and of course the computer versus computer mode. This can be done by editing the game_mode parameter in the agent smith file. Note the agent smith file is the main file to use. While the conga file just contains the conga game classes that were created.
+To play the game as a human player. You select the tile you want to move, then you move that tile by imagining the key ‘s’ being that tile then moving appropriately by pressing the key that corresponds with
+the direction you want to go. For example, pressing ‘w’ will move that selected tile upwards. Only legal moves will work and the player can only play as white.
+There are also set difficulties that can be used for the opponent cpu. The three levels vary in the amount of the time that the computer is given to make a move.
